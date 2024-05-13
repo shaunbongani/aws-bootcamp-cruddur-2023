@@ -102,7 +102,7 @@ we need to turn on billing Alert to receive alert
    * We need to update th configuration json script with the TopicARN we generated earlier
    * We are just a json file because --metrics is required expressions and so its easier to us a JSON file
 
-     aws cloudwatch put-metric-alarm --cli-input-json file:///aws/json/alarm_config.json
+    aws cloudwatch put-metric-alarm --cli-input-json file:///aws/json/alarm_config.json
 
 
 # Create an AWS Budget
