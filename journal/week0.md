@@ -74,20 +74,20 @@ we need to turn on billing Alert to receive alert
 
  # Creating a Billing Alarm
 
-  # Create SNS TOPIC
+  ## Create SNS TOPIC
   * We need an SNS topic before we create an alarm.
   * The SNS topic is what will delivery us an alert when we get overbilled
   * aws sns create topic
 
-  # Create a SNS Topic
+  ## Create a SNS Topic
    aws sns create-topic --name billing-alarm
   
-  # Which will return the TopicARN
+  ## Which will return the TopicARN
 ---{
     "TopicArn": "arn:aws:sns:ca-central-1:992382378196:billing-alarm"
 }
 
-   # We'll create a subscription supply the TopicARN and our Email
+   ## We'll create a subscription supply the TopicARN and our Email
 
     aws sns subscribe \
         --topic-arn TopicARN \
