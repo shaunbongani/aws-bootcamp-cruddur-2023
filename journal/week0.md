@@ -11,8 +11,8 @@ Proceeding to install the account
 
 ## Update our .gitpod.yml to include the following task.
  
-  tasks:
-  name: aws-cli
+   tasks:
+   - name: aws-cli
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
     init: |
