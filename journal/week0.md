@@ -83,10 +83,10 @@ we need to turn on billing Alert to receive alert
    aws sns create-topic --name billing-alarm
   
   ## Which will return the TopicARN
-  
-   ---{
-       "TopicArn": "arn:aws:sns:ca-central-1:992382378196:billing-alarm"
-   }
+
+     ---{
+         "TopicArn": "arn:aws:sns:ca-central-1:992382378196:billing-alarm"
+     }
 
    ## We'll create a subscription supply the TopicARN and our Email
 
