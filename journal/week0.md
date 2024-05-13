@@ -61,7 +61,7 @@ vscode:
 
 # Check that the AWS CLI is working and you are the expected user
 
-aws sts get-caller-identity
+   aws sts get-caller-identity
 
 # You should see something like this:
 
