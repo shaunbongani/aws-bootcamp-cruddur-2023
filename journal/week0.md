@@ -63,4 +63,38 @@ vscode:
 
 aws sts get-caller-identity
 
-You should see something like this 
+# You should see something like this:
+
+     "UserId": "AIDA6ODUZMDKNG6OUC6Q2",
+    "Account": "992382378196",
+    "Arn": "arn:aws:iam::992382378196:user/Shaun-IAM-User"
+
+
+# Enabling Billing
+we need to turn on billing Alert to receive alert
+ -In your Root Account go to the billing page
+
+ -Under Billing preference Choose Receive Billing Alert
+
+ -Save Preferences
+
+ # Creating a Billing Alarm
+  * Create SNS TOPIC
+  -We need an SNS topic before we create an alarm.
+  -The SNS topic is what will delivery us an alert when we get overbilled
+  -aws sns create topic
+
+  * Create a SNS Topic
+   aws sns create-topic --name billing-alarm
+  
+  * Which will return the TopicARN
+---{
+    "TopicArn": "arn:aws:sns:ca-central-1:992382378196:billing-alarm"
+}
+
+   * We'll create a subscription supply the TopicARN and our Email
+
+    aws sns subscribe \
+        --topic-arn TopicARN \
+        --protocol email \
+        --notification-endpoint youremail@email.com
