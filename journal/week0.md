@@ -110,9 +110,10 @@ aws budgets create-budget
  ## Get your AWS Account ID
     aws sts get-caller-identity --query Account --output text
 
-* Supply your AWS Account ID
-* Update the json files 
-* This is another case with AWS CLI it's just much easier to json files due to lots of nested json
+ * Supply your AWS Account ID
+ * Update the json files 
+ * This is another case with AWS CLI it's just much easier to json files due to lots of nested json
+
 
   aws budget create-budget \
       --account-id AccountID \
