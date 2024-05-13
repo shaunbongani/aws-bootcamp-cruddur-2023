@@ -5,7 +5,9 @@ Proceeding to install the account
 
 # Install AWS CLI
  -We install our AWS CLI when the Gitpod environment launches
+
  -We are going to set AWS CLI to use partial aoutoprompt mode to make it easier to debug CLI commands.
+ 
  -The bash commands we are using are the same as the [AWS CLI install instruction]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ## Update our .gitpod.yml to include the following task.
