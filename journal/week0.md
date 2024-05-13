@@ -80,7 +80,7 @@ we need to turn on billing Alert to receive alert
   * aws sns create topic
 
   ## Create a SNS Topic
-   aws sns create-topic --name billing-alarm
+     aws sns create-topic --name billing-alarm
   
   ## Which will return the TopicARN
 
