@@ -4,11 +4,10 @@
 Proceeding to install the account
 
 # Install AWS CLI
- -We install our AWS CLI when the Gitpod environment launches
 
- -We are going to set AWS CLI to use partial aoutoprompt mode to make it easier to debug CLI commands.
-
- -The bash commands we are using are the same as the [AWS CLI install instruction]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+ * We install our AWS CLI when the Gitpod environment launches
+ * We are going to set AWS CLI to use partial aoutoprompt mode to make it easier to debug CLI commands.
+ * The bash commands we are using are the same as the [AWS CLI install instruction]https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 
 ## Update our .gitpod.yml to include the following task.
  
@@ -29,17 +28,12 @@ vscode:
 
 # Create a new User an d Generate AWS Credentials
 
- -Go to IAM User Console
-
- -Enable console access
-
- -Create a new Admin Group and apply administratorAccess
-
- -Create the user and go find and click into the user
-
- -Choose AWS CLI Access
-
- -Download the CSV with the credentials 
+ * Go to IAM User Console
+ * Enable console access
+ * Create a new Admin Group and apply administratorAccess
+ * Create the user and go find and click into the user
+ * Choose AWS CLI Access
+ * Download the CSV with the credentials 
 
 
  # Set Env Var
