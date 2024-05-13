@@ -115,8 +115,8 @@ we need to turn on billing Alert to receive alert
  * This is another case with AWS CLI it's just much easier to json files due to lots of nested json
 
 
-     aws budget create-budget \
-      --account-id AccountID \
-      --budget file://aws/json/budget.json \
-      --notification-with-subscribers file://aws/json/budget-notification-with-subscribers.json
+    aws budget create-budget \
+        --account-id AccountID \
+        --budget file://aws/json/budget.json \
+        --notification-with-subscribers file://aws/json/budget-notification-with-subscribers.json
 
