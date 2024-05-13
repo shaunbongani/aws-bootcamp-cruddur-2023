@@ -105,7 +105,7 @@ we need to turn on billing Alert to receive alert
 
 
 # Create an AWS Budget
-aws budgets create-budget
+   aws budgets create-budget
  
  ## Get your AWS Account ID
     aws sts get-caller-identity --query Account --output text
