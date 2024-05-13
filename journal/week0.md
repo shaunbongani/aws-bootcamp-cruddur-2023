@@ -121,8 +121,3 @@ we need to turn on billing Alert to receive alert
         --notification-endpoint youremail@email.com
 
 
-    aws budget create-budget \
-        --account-id AccountID \
-        --budget file://aws/json/budget.json \
-        --notification-with-subscribers file://aws/json/budget-notification-with-subscribers.json
-
