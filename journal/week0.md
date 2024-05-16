@@ -15,7 +15,7 @@ I did the following steps to install AWS CLI.
 
 I installed the AWS CLI via command in ***command prompt*** :
 
-**Note to insert Image**
+![Installing AWS CLI](assets/installing-windows-aws-cli.jpg)
 
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
@@ -31,10 +31,18 @@ operable program or batch file.
 
 I was able to resolve the issue by closing and opening ***CMD***
 
-**Note to insert Image**
+![Proof of Working AWS CLI](assets/proof%20of%20aws-cli.jpg)
 
 
 ### Homework Changes
+
+## Building AWS Servies Diagram
+
+This is the plan for a blog app that I will design using AWS Services.
+
+Below is a diagram:
+
+![AWS Services Diagram](assets/AWS%20Services%20Diagram.jpg)
 
 
 
