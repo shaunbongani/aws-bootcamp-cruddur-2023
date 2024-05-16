@@ -15,6 +15,7 @@ I did the following steps to install AWS CLI.
 
 I installed the AWS CLI via command in ***command prompt*** :
 
+**Note to insert Image**
 
 ```
 msiexec.exe /i https://awscli.amazonaws.com/AWSCLIV2.msi
@@ -30,10 +31,12 @@ operable program or batch file.
 
 I was able to resolve the issue by closing and opening ***CMD***
 
-
+**Note to insert Image**
 
 
 ### Homework Changes
+
+
 
 
 
