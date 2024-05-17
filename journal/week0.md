@@ -36,13 +36,22 @@ I was able to resolve the issue by closing and opening ***CMD***
 ![Proof of Working AWS CLI](assets/proof%20of%20aws-cli.jpg)
 
 
+### Create a Billing Alarm
+
+I ceated my create my own Budget for $1 because I cannot afford any kind of spend.
+I did not create a seconfd Budget because I was concerned of budget spending going over the 2 budget free limit.
+
+![AWS Budget Alarm](assets/budget-alarm.jpg)
+
+
 ### Homework Changes
 
-## Building AWS Servies Diagram
+## Building Logical Architetural Diagram
 
-This is the plan for a blog app that I will design using AWS Services.
+I designed a logical architecture diagram for a app, using AWS services.
 
-Below is a diagram:
+
+[Lucid Charts Shared Link](https://lucid.app/lucidchart/4b92fee0-8166-4d66-83e6-fe4ed69d2c73/view?page=0_0#)
 
 ![AWS Services Diagram](assets/AWS%20Services%20Diagram.jpg)
 
